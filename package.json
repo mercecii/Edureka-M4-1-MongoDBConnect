@@ -1,0 +1,19 @@
+{
+  "name": "express-mongo",
+  "version": "1.0.0",
+  "description": "Connectivity to MongoDB using Express",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "nodemon app.js",
+    "prod": "pm2 start app.js"
+  },
+  "author": "Deepak Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.1",
+    "mongoose": "^5.10.3"
+  }
+}
